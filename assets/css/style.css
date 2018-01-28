@@ -1,0 +1,315 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+  padding: 0px 0px 68px 0px;
+  background-image: url(../images/cork-wallet.png);
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+.headerwrapper{
+  height: 75px;
+  width: 100%;
+  background-color: #ffffff;
+  border-top: 1px #cccccc solid;
+  border-bottom: 2px #cccccc solid;
+}
+
+.header{
+  height: 75px;
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+.name{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  background-color: #4aaaa5;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  float: left;
+  margin-right: 30px;
+  line-height: 74px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.box{
+  float: right;
+  width: 270px;
+  height: 50px;
+  padding-top: 26px;
+}
+
+.about{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  float: right;
+  padding-right: 15px;
+  color: #989898;
+  line-height: 20px;
+ 
+}
+
+.portfolio{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  border-left: 1px #f0f0f0 solid;
+  border-right: 1px #f0f0f0 solid;
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #989898;
+  line-height: 20px;
+}
+
+
+
+.contact{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  float: right;
+  padding-left: 15px;
+  color: #989898;
+  line-height: 20px;
+}
+
+.contact:hover, .portfolio:hover, .about:hover{
+  color: teal;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #989898;
+}
+
+.contentarea{
+  padding-top: 40px;
+  width: 960px;
+  padding-bottom: 40px;
+  overflow-y: auto;
+  margin: 0 auto;
+}
+
+.mainbio{
+  float: left;
+  width: 650px;
+  margin-right: 40px;
+  padding: 30px;
+  background-color: #ffffff;
+  border: 1px #dddddd solid;
+
+}
+
+h2{
+  color: #4aaaa5;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  border-bottom: 3px #dddddd solid;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+
+}
+
+p{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px; 
+  line-height: 1.8;
+}
+
+.connect{
+  border: 1px #dddddd solid;
+  float: left;
+  width: 270px;
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+h3{
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 3px #dddddd solid;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+ }
+
+#meimg{
+  float: left;
+  margin: 0px 20px 5px 0px;
+}
+
+.conimg{
+  float: left;
+  margin-right: 6px;
+  width: 60px;
+  height: 60px;
+}
+
+.conimg.stack{
+  width: 60px;
+  height: 60px;
+  padding: 3px;
+
+}
+
+
+.footer{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: #666666;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  border-top: 8px #4aaaa5 solid;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.clearfix::after{
+  content:"";
+  display: block;
+  clear:both;
+}
+
+/*............Form CSS.......................*/
+
+.form{
+  float: left;
+  width: 650px;
+  margin-right: 40px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px #dddddd solid;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: teal;
+}
+
+.container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/*..............Portfolio................*/
+
+.portfoliosection{
+  float: left;
+  width: 650px;
+  margin-right: 40px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px #dddddd solid;
+  position: relative;
+}
+
+.portimg{
+  float: left;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.portimgs{
+  float: right;
+  margin-bottom: 50px;
+}
+
+#head1{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  width: 275px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 225px;
+  left: 20px;
+}
+
+#head2{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  width: 275px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 225px;
+  right: 20px;
+}
+
+#head3{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  width: 275px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 475px;
+  left: 20px;
+}
+
+#head4{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  width: 275px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 475px;
+  right: 20px;
+}
+
+#head5{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  width: 275px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 725px;
+  left: 20px;
+}
